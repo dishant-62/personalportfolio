@@ -1,6 +1,6 @@
 export const profile = {
   name: "Dishant Rathi", role: "Technical Associate", company: "GSK", location: "Bengaluru, India", joined: "26 August 2024",
-  email: "", // Add your preferred public email.
+  email: "rathidishant39@gmail.com",
   linkedin: "", // Add your LinkedIn profile URL.
   github: "", // Add your GitHub profile URL.
   resume: "", // Add PDF to /public and set its path, e.g. /dishant-rathi-resume.pdf.
@@ -13,7 +13,20 @@ export const projects = [
 ];
 
 export const skillGroups = [
-  { label: "Data engineering", items: ["Python", "SQL", "Apache Spark", "Databricks", "ETL / ELT", "Data pipelines", "Streaming"] },
-  { label: "Cloud & platforms", items: ["Azure", "Cloud infrastructure", "Data platforms", "EDAP", "CMC"] },
-  { label: "AI", items: ["AI", "AI engineering"] },
+  {
+    label: "AI & applied intelligence",
+    items: ["AI engineering", "Generative AI", "Agentic AI", "Retrieval-Augmented Generation (RAG)", "Model Context Protocol (MCP)", "Prompt engineering", "Claude API integration", "AI-assisted code review", "AI code generation", "CI/CD-triggered AI review"],
+  },
+  {
+    label: "Data engineering",
+    items: ["Python", "SQL", "PySpark", "Apache Spark", "Azure Databricks", "Azure Data Factory", "Azure Data Lake", "Unity Catalog", "ETL / ELT", "Streaming & data pipelines"],
+  },
+  {
+    label: "Problem solving",
+    items: ["Analytical thinking", "Root-cause analysis", "Systems thinking"],
+  },
+  {
+    label: "Product & leadership",
+    items: ["Product thinking", "Business & commercial thinking", "Leadership & stakeholder alignment", "Sponsorship & partnership development", "Event marketing & execution"],
+  },
 ];
